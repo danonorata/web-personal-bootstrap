@@ -334,7 +334,7 @@ small {
 
 /* MEDIA QUERIES */
 /* PORTATILES GRANDES */
-@media (max-width: 992px) {
+@media (max-width: 991px) {
 	.header {
 		height: 40rem;
 		padding-top: 7.8rem;
