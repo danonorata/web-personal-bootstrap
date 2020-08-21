@@ -484,7 +484,7 @@ small {
 	}
 
 	.carousel-indicators li {
-		margin-bottom: -20px;
+		margin-bottom: -35px;
 		padding-bottom: .1rem;
 		background-color: #f1b900;
 	}
@@ -517,8 +517,8 @@ small {
 
 	.img-fluid__p {
 		color: #032134;
-		padding: 0 15px;
-		font-size: 25px;
+		padding: 0 10px;
+		font-size: 20px;
 		/* background-color: blue; */
 	}
 
@@ -930,7 +930,6 @@ small {
 		/* background-color: blue; */
 	}
 
-	/* desde aquí */
 	.carousel-indicators li {
 		margin-bottom: -35px;
 		padding-bottom: .1rem;
