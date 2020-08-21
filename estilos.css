@@ -216,6 +216,7 @@ body,
 	/* max-height: 40rem; */
 	margin: auto;
 }
+
 .carousel-indicators li {
 	margin-bottom: -20px;
 	padding-bottom: .1rem;
@@ -320,6 +321,7 @@ small {
 }
 
 @keyframes showRetarded {
+
 	from,
 	50% {
 		opacity: 0;
@@ -409,6 +411,7 @@ small {
 	.section2r {
 		background-color: #fff;
 	}
+
 	.section3l {
 		height: 60rem;
 	}
@@ -518,6 +521,7 @@ small {
 		font-size: 25px;
 		/* background-color: blue; */
 	}
+
 	.carousel-caption {
 		width: 9.8rem;
 		margin-left: 3rem;
@@ -776,6 +780,7 @@ small {
 
 /* PORTATILES CHICOS */
 @media (max-width: 576px) {
+
 	/* HEADER */
 	.header {
 		height: 37rem;
@@ -870,6 +875,7 @@ small {
 		flex-direction: row;
 		/* background-color: red; */
 	}
+
 	.prueba {
 		width: 97%;
 		margin: 0 auto;
@@ -924,6 +930,7 @@ small {
 		/* background-color: blue; */
 	}
 
+	/* desde aquí */
 	.carousel-indicators li {
 		margin-bottom: -35px;
 		padding-bottom: .1rem;
