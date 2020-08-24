@@ -601,41 +601,31 @@ small {
 
 		small {
 			font-size: 28px;
-			color: #f1b900;
+			/* color: #f1b900; */
 		}
 
 		.carousel-line {
 			border-color: #f1b900;
 		}
 
-		/* STAY HERE 22-AGO-20 */
+
 		.img-fluid__p {
-			/* color: #032134; */
 			padding: 0 10px;
 			font-size: 23px;
 		}
 
-
-		.contacto__logo {
-			width: 4rem;
-		}
-
-		.contacto__line {
-			color: #032134;
-			width: 30%;
-		}
-
 		.contacto__p {
 			width: 93%;
-			margin: 0 auto;
+			/* margin: 0 auto; */
 			font-size: 18px;
-			/* background-color: #032134; */
 		}
 
 		.made__by {
 			font-size: 10px;
 		}
 	}
+
+	/* DEPURACIÓN CÓDIGO CSS CONCLUIDA 24-AGO-2020 */
 
 	/* BREAKPOINTS */
 	/*
