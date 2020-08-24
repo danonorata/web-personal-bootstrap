@@ -626,21 +626,29 @@ small {
 	}
 
 	/* DEPURACIÓN CÓDIGO CSS CONCLUIDA 24-AGO-2020 */
-
 	/* BREAKPOINTS */
-	/*
-Extra Small (xs) devices (portrait phones, less than 576px)
-No media query since this is default in Bootstrap
 
-Small (sm) devices (landspace phones, 576pxand up)
-@media (min-width: 576px) {...}
 
-Medium (md) devices (tablets , 768px and up)
-@media (min-width: 768px) {...}
 
-Large (lg) devices (desktops , 992px and up)
-@media (min-width: 992px) {...}
+	/* Extra Small (xs) devices (portrait phones, less than 576px) 
+	No media query since this is default in Bootstrap Small (sm) devices 
+	(landspace phones, 576pxand up) 
+	@media (min-width: 576px) {
+		...
+	}
 
-extra (xl) devices (large desktops , 1200px and up)
-@media (min-width: 1200px) {...}
-*/
+	Medium (md) devices (tablets, 768px and up) 
+	@media (min-width: 768px) {
+		...
+	}
+
+	Large (lg) devices (desktops, 992px and up) 
+	@media (min-width: 992px) {
+		...
+	}
+
+	extra (xl) devices (large desktops, 1200px and up) 
+	@media (min-width: 1200px) {
+		...
+	} */
+}
