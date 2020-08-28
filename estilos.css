@@ -48,7 +48,7 @@ body,
 
 /* HEADER */
 .header {
-	height: 43rem;
+	height: 40rem;
 	padding-top: 15rem;
 	background: url(/images/micro-2.png);
 	background-attachment: fixed;
@@ -100,7 +100,7 @@ body,
 .section3__h2 {
 	margin-top: 1.5rem;
 	font-size: 50px;
-	font-weight: 700;
+	font-weight: 900;
 }
 
 .section1l__h1,
@@ -108,7 +108,13 @@ body,
 	margin-top: -.5rem;
 	margin-bottom: 1.5rem;
 	font-size: 39px;
-	font-weight: 700;
+	font-weight: 900;
+}
+
+.section1l__h1d,
+.section2l__h1d {
+	font-size: 39px;
+	font-weight: 900;
 }
 
 .lead,
@@ -285,7 +291,6 @@ small {
 }
 
 @keyframes showRetarded {
-
 	from,
 	50% {
 		opacity: 0;
@@ -391,246 +396,254 @@ small {
 		padding: 0 10px;
 		font-size: 20px;
 	}
-
-	/* PORTATILES MEDIANOS */
-	@media (max-width: 768px) {
-		.header {
-			height: 37rem;
-			padding-top: 7.8rem;
-			background-position: 5px 350px;
-			background-size: 280px;
-		}
-
-		.header__h1 {
-			font-size: 70px;
-		}
-
-		.header__h4__span1 {
-			font-size: 45px;
-		}
-
-		.header__h4__span2 {
-			font-size: 25px;
-		}
-
-		.section1l,
-		.section2l {
-			padding-top: 0rem;
-		}
-
-		.section1l__h1,
-		.section2l__h1 {
-			font-size: 45px;
-		}
-
-		.lead,
-		.section1l__p,
-		.section2l__p {
-			font-size: 25px;
-		}
-
-		.img__1,
-		.img__2 {
-			width: 400px;
-			border: #f1b900 solid 2px;
-		}
-
-		.section1r,
-		.section2r {
-			background-color: #fff;
-		}
-
-		.section3 {
-			height: 60rem;
-		}
-
-		.section3__logos {
-			width: 97%;
-			border: solid #fff 10px;
-		}
-
-		.carousel__div {
-			height: 25rem;
-			position: relative;
-			margin-bottom: 8rem;
-		}
-
-
-		#slides {
-			height: auto;
-			background-color: #fff;
-		}
-
-		.carousel-indicators li {
-			margin-bottom: -22px;
-		}
-
-		.carousel-inner img {
-			width: 30%;
-			height: 30%;
-			-moz-border-radius: 100px;
-			-webkit-border-radius: 100px;
-			border-radius: 100px;
-		}
-
-		.display-5 {
-			font-size: 35px;
-			font-weight: 700;
-		}
-
-		small {
-			font-size: 25px;
-		}
-
-		.img-fluid__p {
-			font-size: 23px;
-			padding: 0 5px;
-			height: 8rem;
-		}
-
-		.footer {
-			background-color: #fff;
-			position: relative;
-			padding-top: 1rem;
-		}
-
-		.contacto__p {
-			width: 93%;
-			margin: 0 auto;
-			font-size: 1.65rem;
-		}
-
-		.made__by {
-			font-size: 15px;
-		}
+}
+/* PORTATILES MEDIANOS */
+@media (max-width: 768px) {
+	.header {
+		height: 37rem;
+		padding-top: 7.8rem;
+		background-position: 5px 350px;
+		background-size: 280px;
 	}
 
-	/* PORTATILES CHICOS */
-	@media (max-width: 576px) {
-
-		/* HEADER */
-		.header {
-			height: 37rem;
-			padding-top: 7.8rem;
-			background-position: 5px 350px;
-			background-size: 280px;
-		}
-
-		.header__h1 {
-			font-size: 46px;
-		}
-
-		.header__h4__span1 {
-			font-size: 43px;
-		}
-
-		.header__h4__span2 {
-			font-size: 25px;
-		}
-
-		/* BODY */
-		.section1l,
-		.section2l {
-			padding-top: 0rem;
-		}
-
-		.section1l__h2,
-		.section2l__h2,
-		.section3__h2 {
-			font-size: 30px;
-		}
-
-		.section1l__h1,
-		.section2l__h1 {
-			font-size: 24px;
-		}
-
-		.section1l__p,
-		.section2l__p,
-		.lead {
-			font-size: 25px;
-		}
-
-		.img__1,
-		.img__2 {
-			padding: .5rem;
-			border: #f1b900 solid 2px;
-		}
-
-		.section1r,
-		.section2r {
-			background-color: #fff;
-		}
-
-		.section3 {
-			height: 60rem;
-		}
-
-		.section3__logos {
-			margin: auto;
-		}
-
-		.logos__img {
-			transform: scale(.70, .70);
-		}
-
-		.carousel__div {
-			height: 30rem;
-			background-color: #fff;
-		}
-
-		#slides {
-			height: 27rem;
-		}
-
-		.carousel-indicators li {
-			margin-bottom: -35px;
-		}
-
-		.carousel-inner img {
-			width: 30%;
-			height: 30%;
-			-moz-border-radius: 150px;
-			-webkit-border-radius: 150px;
-			border-radius: 150px;
-		}
-
-		.display-5 {
-			font-size: 35px;
-		}
-
-		small {
-			font-size: 28px;
-			/* color: #f1b900; */
-		}
-
-		.carousel-line {
-			border-color: #f1b900;
-		}
-
-
-		.img-fluid__p {
-			padding: 0 10px;
-			font-size: 23px;
-		}
-
-		.contacto__p {
-			width: 93%;
-			/* margin: 0 auto; */
-			font-size: 18px;
-		}
-
-		.made__by {
-			font-size: 10px;
-		}
+	.header__h1 {
+		font-size: 70px;
 	}
 
-	/* DEPURACIÓN CÓDIGO CSS CONCLUIDA 24-AGO-2020 */
-	/* BREAKPOINTS */
+	.header__h4__span1 {
+		font-size: 45px;
+	}
 
+	.header__h4__span2 {
+		font-size: 25px;
+	}
 
+	.section1l,
+	.section2l {
+		padding-top: 0rem;
+	}
 
-	/* Extra Small (xs) devices (portrait phones, less than 576px) 
+	.section1l__h1,
+	.section2l__h1 {
+		font-size: 45px;
+	}
+
+	.lead,
+	.section1l__p,
+	.section2l__p {
+		font-size: 25px;
+	}
+
+	.img__1,
+	.img__2 {
+		width: 400px;
+		border: #f1b900 solid 2px;
+	}
+
+	.section1r,
+	.section2r {
+		background-color: #fff;
+	}
+
+	.section3 {
+		height: 60rem;
+	}
+
+	.section3__logos {
+		width: 97%;
+		border: solid #fff 10px;
+	}
+
+	.carousel__div {
+		height: 25rem;
+		position: relative;
+		margin-bottom: 8rem;
+	}
+
+	#slides {
+		height: auto;
+		background-color: #fff;
+	}
+
+	.carousel-indicators li {
+		margin-bottom: -22px;
+	}
+
+	.carousel-inner img {
+		width: 30%;
+		height: 30%;
+		-moz-border-radius: 100px;
+		-webkit-border-radius: 100px;
+		border-radius: 100px;
+	}
+
+	.display-5 {
+		font-size: 35px;
+		font-weight: 700;
+	}
+
+	small {
+		font-size: 25px;
+	}
+
+	.img-fluid__p {
+		font-size: 23px;
+		padding: 0 5px;
+		height: 8rem;
+	}
+
+	.footer {
+		background-color: #fff;
+		position: relative;
+		padding-top: 1rem;
+	}
+
+	.contacto__p {
+		width: 93%;
+		margin: 0 auto;
+		font-size: 1.65rem;
+	}
+
+	.made__by {
+		font-size: 15px;
+	}
+}
+
+/* PORTATILES CHICOS */
+@media (max-width: 576px) {
+	/* HEADER */
+	.header {
+		background: url(/images/micro-2.png);
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-position: center;
+		/* ORIGINAL */
+		height: 37rem;
+		padding-top: 7.8rem;
+		/* background-position: 5px 350px; */
+		background-size: 280px;
+	}
+
+	.header__h1 {
+		font-size: 46px;
+	}
+
+	.header__h4__span1 {
+		font-size: 43px;
+	}
+
+	.header__h4__span2 {
+		font-size: 25px;
+	}
+
+	/* BODY */
+	.section1l,
+	.section2l {
+		padding-top: 0rem;
+		padding: 0rem 2rem 0rem 2rem;
+	}
+
+	.section1l__h2,
+	.section2l__h2,
+	.section3__h2 {
+		font-size: 60px;
+	}
+
+	.section1l__h1,
+	.section2l__h1 {
+		font-size: 65px;
+	}
+
+	.section1l__h1d,
+	.section2l__h1d {
+		margin-top: -1.48rem;
+		margin-bottom: 3rem;
+		font-size: 60px;
+	}
+
+	.section1l__p,
+	.section2l__p,
+	.lead {
+		font-size: 25px;
+	}
+
+	.img__1,
+	.img__2 {
+		padding: .5rem;
+		border: #f1b900 solid 2px;
+	}
+
+	.section1r,
+	.section2r {
+		background-color: #fff;
+	}
+
+	.section3 {
+		height: 60rem;
+	}
+
+	.section3__logos {
+		margin: auto;
+	}
+
+	.logos__img {
+		transform: scale(.70, .70);
+	}
+
+	.carousel__div {
+		height: 30rem;
+		background-color: #fff;
+	}
+
+	#slides {
+		height: 27rem;
+	}
+
+	.carousel-indicators li {
+		margin-bottom: -35px;
+	}
+
+	.carousel-inner img {
+		width: 30%;
+		height: 30%;
+		-moz-border-radius: 150px;
+		-webkit-border-radius: 150px;
+		border-radius: 150px;
+	}
+
+	.display-5 {
+		font-size: 35px;
+	}
+
+	small {
+		font-size: 28px;
+		/* color: #f1b900; */
+	}
+
+	.carousel-line {
+		border-color: #f1b900;
+	}
+
+	.img-fluid__p {
+		padding: 0 10px;
+		font-size: 23px;
+	}
+
+	.contacto__p {
+		width: 93%;
+		/* margin: 0 auto; */
+		font-size: 18px;
+	}
+
+	.made__by {
+		font-size: 10px;
+	}
+}
+
+/* DEPURACIÓN CÓDIGO CSS CONCLUIDA 24-AGO-2020 */
+/* BREAKPOINTS */
+
+/* Extra Small (xs) devices (portrait phones, less than 576px) 
 	No media query since this is default in Bootstrap Small (sm) devices 
 	(landspace phones, 576pxand up) 
 	@media (min-width: 576px) {
@@ -651,4 +664,3 @@ small {
 	@media (min-width: 1200px) {
 		...
 	} */
-}
